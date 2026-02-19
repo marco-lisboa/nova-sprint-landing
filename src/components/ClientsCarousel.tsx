@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 
 const clients = [
-  { name: "CTIS", logo: "/public/images/ctis.png" },
-  { name: "OI Telecom", logo: "/public/images/Oi_logo_2022.png" },
-  { name: "L2M", logo: "/public/images/l2m.png" },
-  { name: "GlobalWeb", logo: "/public/images/globalweb.png" },
-  { name: "SKY", logo: "/public/images/sky-logo-01.png" },
-  { name: "Instituto de Informática", logo: "/public/images/instituto-informatica.png" },
+  { name: "CTIS", logo: "/images/ctis.png" },
+  { name: "OI Telecom", logo: "/images/Oi_logo_2022.png" },
+  { name: "L2M", logo: "images/l2m.png" },
+  { name: "GlobalWeb", logo: "images/globalweb.png" },
+  { name: "SKY", logo: "images/sky-logo-01.png" },
+  { name: "Instituto de Informática", logo: "images/instituto-informatica.png" },
 ];
 
 const ClientsCarousel = () => {
