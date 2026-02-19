@@ -22,7 +22,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#inicio" className="flex items-center gap-3">
-          <img src={logo} alt="New Sprint" className="h-14 w-auto" />
+          <img src={logo} alt="New Sprint" className="h-[200px] w-auto -my-16" />
           <span className="font-heading text-xl font-bold text-foreground">
             New<span className="text-primary">Sprint</span>
           </span>

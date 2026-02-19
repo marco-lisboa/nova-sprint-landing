@@ -1,43 +1,42 @@
 import { motion } from "framer-motion";
-import { Code2, Smartphone, Globe, Palette, Zap, Shield } from "lucide-react";
+import { MessageSquare, Bot, Workflow, Store, Stethoscope, Utensils } from "lucide-react";
 
 const features = [
   {
-    icon: Code2,
-    title: "Desenvolvimento Web",
-    description: "Sites e sistemas web modernos, rápidos e responsivos.",
+    icon: MessageSquare,
+    title: "Automação WhatsApp",
+    description: "Atendimento automatizado 24/7 via WhatsApp para seu negócio.",
   },
   {
-    icon: Smartphone,
-    title: "Aplicativos Mobile",
-    description: "Apps nativos e multiplataforma com experiência fluida.",
+    icon: Bot,
+    title: "Chatbots Inteligentes",
+    description: "Bots personalizados que respondem, agendam e vendem por você.",
   },
   {
-    icon: Globe,
-    title: "Sistemas em Nuvem",
-    description: "Infraestrutura escalável e segura na nuvem.",
+    icon: Workflow,
+    title: "Integração n8n",
+    description: "Fluxos automatizados conectando WhatsApp a CRMs, ERPs e mais.",
   },
   {
-    icon: Palette,
-    title: "UI/UX Design",
-    description: "Interfaces intuitivas que encantam seus usuários.",
+    icon: Stethoscope,
+    title: "Clínicas & Saúde",
+    description: "Agendamento, confirmação e lembretes automáticos para pacientes.",
   },
   {
-    icon: Zap,
-    title: "Automação",
-    description: "Automatize processos e aumente a produtividade.",
+    icon: Utensils,
+    title: "Restaurantes & Food",
+    description: "Pedidos, cardápio digital e atendimento automatizado pelo WhatsApp.",
   },
   {
-    icon: Shield,
-    title: "Segurança Digital",
-    description: "Proteja seus dados com as melhores práticas do mercado.",
+    icon: Store,
+    title: "Qualquer Segmento",
+    description: "Soluções sob medida para varejo, serviços, educação e muito mais.",
   },
 ];
 
 const FeaturesSection = () => {
   return (
     <section id="servicos" className="py-24 relative">
-      {/* Glow decoration */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-primary/5 blur-[120px] pointer-events-none" />
 
       <div className="container mx-auto px-6 relative z-10">
@@ -55,7 +54,7 @@ const FeaturesSection = () => {
             O que oferecemos
           </h2>
           <p className="text-muted-foreground max-w-xl mx-auto text-lg">
-            Soluções completas para levar seu negócio ao próximo nível.
+            Automações inteligentes via WhatsApp para qualquer tipo de negócio.
           </p>
         </motion.div>
 
