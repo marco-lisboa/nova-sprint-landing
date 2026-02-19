@@ -39,10 +39,12 @@ const AboutSection = () => {
           <h2 className="text-3xl md:text-5xl font-heading font-bold mt-3 mb-6">
             A <span className="text-primary neon-text">New Sprint</span>
           </h2>
-          <p className="text-muted-foreground max-w-2xl mx-auto text-lg">
-            Somos uma startup de tecnologia focada em desenvolvimento de
-            software, design e soluções digitais. Combinamos criatividade e
-            expertise técnica para transformar ideias em realidade.
+          <p className="text-muted-foreground max-w-3xl mx-auto text-lg leading-relaxed">
+            A New Sprint nasceu em 2012, após a mudança da cidade de Brasília para São Paulo.
+            Com 11 anos no mercado, já prestamos serviços para os mais diversos tipos de empresas.
+            Além de criar soluções inovadoras, promovemos e desenvolvemos com qualidade softwares.
+            Temos uma equipe de profissionais qualificados para atuar em diversos projetos, além
+            de atender grandes demandas com competência!
           </p>
         </motion.div>
 

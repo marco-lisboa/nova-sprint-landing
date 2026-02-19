@@ -62,11 +62,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-        >
-          <span className="inline-block px-4 py-1.5 rounded-full glass text-primary text-sm font-medium mb-6 neon-border">
-            🚀 Inovação em Tecnologia
-          </span>
-        </motion.div>
+        />
 
         <motion.h1
           initial={{ opacity: 0, y: 40 }}
