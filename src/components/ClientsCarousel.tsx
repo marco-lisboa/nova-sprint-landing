@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 const clients = [
   { name: "CTIS", logo: "/images/ctis.png" },
   { name: "OI Telecom", logo: "/images/Oi_logo_2022.png" },
-  { name: "L2M", logo: "images/l2m.png" },
-  { name: "GlobalWeb", logo: "images/globalweb.png" },
-  { name: "SKY", logo: "images/sky-logo-01.png" },
-  { name: "Instituto de Informática", logo: "images/instituto-informatica.png" },
+  { name: "L2M", logo: "/images/l2m.png" },
+  { name: "GlobalWeb", logo: "/images/globalweb.png" },
+  { name: "SKY", logo: "/images/sky-logo-01.png" },
+  { name: "Instituto de Informática", logo: "/images/instituto-informatica.png" },
 ];
 
 const ClientsCarousel = () => {
