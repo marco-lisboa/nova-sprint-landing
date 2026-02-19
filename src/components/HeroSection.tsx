@@ -70,8 +70,8 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold leading-tight mb-6"
         >
-          Transformamos ideias em{" "}
-          <span className="text-primary neon-text">soluções digitais</span>
+          Automatize seu negócio com{" "}
+          <span className="text-primary neon-text">WhatsApp inteligente</span>
         </motion.h1>
 
         <motion.p
@@ -80,8 +80,8 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10"
         >
-          Desenvolvemos software sob medida, impulsionando o crescimento do seu
-          negócio com tecnologia de ponta.
+          Criamos automações poderosas via WhatsApp com n8n para clínicas,
+          restaurantes e qualquer segmento. Mais eficiência, menos trabalho manual.
         </motion.p>
 
         <motion.div
@@ -94,7 +94,7 @@ const HeroSection = () => {
             href="#contato"
             className="inline-flex items-center gap-2 px-8 py-3.5 rounded-lg bg-primary text-primary-foreground font-semibold hover:opacity-90 transition-opacity glow-pulse"
           >
-            Comece seu projeto
+            Automatize agora
             <ArrowRight size={18} />
           </a>
           <a
